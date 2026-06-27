@@ -2,10 +2,10 @@ spring:
   application:
     name: marketplace-engine
   datasource:
-    url: jdbc:postgresql://ep-dark-heart-asrw5a3y-pooler.c-4.eu-central-1.aws.neon.tech/neondb?sslmode=require
+    url: ${DB_URL}
     driver-class-name: org.postgresql.Driver
-    username: neondb_owner
-    password: npg_2ej0IhWcrdSg
+    username: ${DB_USER}
+    password: ${DB_PASSWORD}
   jpa:
     hibernate:
       ddl-auto: update
