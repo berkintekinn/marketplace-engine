@@ -1,0 +1,30 @@
+{
+  "products" : [ {
+    "id" : "53a296f4-f967-4087-a518-e14d536a2d75",
+    "name" : "MacBook Air M2",
+    "price" : 35000.0,
+    "originalPrice" : 35000.0,
+    "stock" : 9,
+    "category" : "ELECTRONICS",
+    "sellerId" : "f3094d1c-495b-4eaa-a259-48d8f6810d5f",
+    "status" : "APPROVED"
+  }, {
+    "id" : "eab35a52-5305-4841-a565-ddd28ab55acc",
+    "name" : "iPhone 15",
+    "price" : 45000.0,
+    "originalPrice" : 45000.0,
+    "stock" : 5,
+    "category" : "ELECTRONICS",
+    "sellerId" : "f3094d1c-495b-4eaa-a259-48d8f6810d5f",
+    "status" : "PENDING"
+  }, {
+    "id" : "00b31852-c5f0-4d17-a2e4-1c9da93ee6e7",
+    "name" : "",
+    "price" : 100.0,
+    "originalPrice" : 0.0,
+    "stock" : 5,
+    "category" : "ELECTRONICS",
+    "sellerId" : "test-user",
+    "status" : "PENDING"
+  } ]
+}
